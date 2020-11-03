@@ -56,14 +56,14 @@ body
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: gold;
+  background: #e6ff75;
 }
 .big-logo-row .big-logo-container {
   padding-top: 0px;
 }
 .big-logo-row h1 {
   font-size: 4em;
-  margin: 0;
+  margin: 30px;
   padding: 0 0 0px 0;
 }
 @media (min-width: 400px) {
@@ -153,7 +153,7 @@ body
 .block1
 {
   height: 40vh;
-  background-color: rgb(60, 179, 179);
+  background-color: #c8d5b9;
   width: 100%;
 }
 
@@ -219,15 +219,41 @@ body
   background-size: cover;
 }
 
+.parallax4 {
+  /* The image used */
+  background-image: url("slide\ \(4\).jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .block2
 {
   height: 40vh;
-  background-color: azure;
+  background-color: #faf3dd;
   width: 100%;
 }
 
 
+.clipart-container
+{
+  position: absolute;
+  left: 20vw;
+}
 
+.clipart
+{
+  width: 70px;
+  height: 70px;
+  margin: 50px;
+  margin-top: 100px;
+}
 
 
 
